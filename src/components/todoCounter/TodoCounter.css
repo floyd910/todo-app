@@ -1,0 +1,53 @@
+.todo-counter {
+  padding: 16px 20px 22px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-counter p,
+.todo-counter button {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.166667px;
+  color: #9495a5;
+}
+
+.todo-counter button {
+  text-align: right;
+}
+
+.dark .todo-counter p,
+.dark .todo-counter button {
+  color: #5b5e7e;
+}
+
+.todo-counter button:hover {
+  color: #494c6b;
+}
+
+.dark .todo-counter button:hover {
+  color: #e3e4f1;
+}
+
+.todo-counter-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .todo-counter p,
+  .todo-counter button {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .todo-counter {
+    display: none;
+  }
+  .todo-counter-desktop {
+    display: flex;
+  }
+}

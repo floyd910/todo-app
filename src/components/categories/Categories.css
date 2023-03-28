@@ -1,0 +1,37 @@
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}
+
+.categories button {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.194444px;
+  color: #9495a5;
+}
+
+.categories button:hover {
+  color: #494c6b;
+}
+
+.dark .categories button {
+  color: #5b5e7e;
+}
+
+.dark .categories button:hover {
+  color: #e3e4f1;
+}
+
+.categories .chosen,
+.dark .categories .chosen {
+  color: #3a7cfd;
+}
+
+.categories .chosen:hover {
+  color: #3a7cfd !important;
+}

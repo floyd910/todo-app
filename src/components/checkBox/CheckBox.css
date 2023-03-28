@@ -1,0 +1,37 @@
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+.checked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+  border: none !important;
+}
+
+.custom-checkbox img {
+  width: 7.25px;
+  height: 5px;
+}
+
+.dark .custom-checkbox {
+  border: 1px solid #393a4b;
+}
+
+.custom-checkbox:hover {
+  border: 1px solid #c058f3;
+}
+@media only screen and (min-width: 1024px) {
+  .custom-checkbox {
+    width: 24px;
+    height: 24px;
+  }
+  .custom-checkbox img {
+    width: 8.7px;
+    height: 6px;
+  }
+}
